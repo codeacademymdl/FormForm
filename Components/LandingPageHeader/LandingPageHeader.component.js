@@ -10,7 +10,7 @@ export default class Header extends Component {
   render() {
     return (
       <View style={styles.main}>
-        <Text style={styles.content}>Awesome Forms</Text>
+        <Text style={styles.content}>{this.props.heading}</Text>
       </View>
 
     );

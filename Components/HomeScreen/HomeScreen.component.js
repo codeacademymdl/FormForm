@@ -13,14 +13,12 @@ export default class HomeScreen extends Component {
       <ScrollView style={styles.main}>
 
         <View style={styles.main}>
-          <LandingPageHeader />
+          <LandingPageHeader heading="Awesome Forms" />
           <View style={styles.buttonPos}>
             <TouchableOpacity
               underlayColor="blue"
               onPress={() => this.props.navigation.navigate('CreateForm')}
             >
-
-
               <Image
                 source={addIcon}
                 style={styles.icon}

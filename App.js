@@ -12,12 +12,12 @@ import React, { Component } from 'react';
 import { createStackNavigator, createAppContainer } from 'react-navigation';
 
 import HomeScreen from './Components/HomeScreen/HomeScreen.component';
-import FillForm from './Components/FillForm/FillForm.component';
+import CreateForm from './Components/CreateForm/CreateForm.component';
 
 const AppStackNavigator = createStackNavigator(
   {
     Home: HomeScreen,
-    CreateForm: FillForm,
+    CreateForm,
 
 
   }, {
