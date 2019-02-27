@@ -3,9 +3,8 @@ import { StyleSheet } from 'react-native';
 export default StyleSheet.create({
   main: {
     flex: 1,
-
-
     backgroundColor: '#dae5f0',
+
 
   },
   icon: {
@@ -17,5 +16,10 @@ export default StyleSheet.create({
     justifyContent: 'center',
     marginTop: '80%',
     flexDirection: 'row',
+  },
+  body: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
 });
