@@ -33,4 +33,25 @@ export default StyleSheet.create({
   text: {
     color: 'white',
   },
+  footer: {
+
+    flexDirection: 'column',
+    backgroundColor: '#4154af',
+    height: 50,
+    alignItems: 'center',
+    width: '100%',
+    marginTop: '95%',
+    // justifyContent: 'center',
+
+
+  },
+  footerContent: {
+    fontSize: 20,
+    padding: 20,
+    // marginBottom: 20,
+
+    color: 'white',
+
+
+  },
 });
