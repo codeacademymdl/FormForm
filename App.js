@@ -8,23 +8,33 @@
  */
 
 import React, { Component } from 'react';
-import {
-  Platform, StyleSheet, Text, View, ScrollView,
-} from 'react-native';
-import LandingPageHeader from './Components/LandingPageHeader/LandingPageHeader.component';
-import styles from './App.style';
 
-export default class App extends Component {
+import { createStackNavigator, createAppContainer } from 'react-navigation';
+
+import HomeScreen from './Components/HomeScreen/HomeScreen.component';
+import FillForm from './Components/FillForm/FillForm.component';
+
+const AppStackNavigator = createStackNavigator(
+  {
+    Home: HomeScreen,
+    CreateForm: FillForm,
+
+
+  }, {
+    initialRouteName: 'Home',
+  },
+);
+
+const AppContainer = createAppContainer(AppStackNavigator);
+
+class App extends Component {
   render() {
     return (
-      <ScrollView>
-
-        <View style={styles.main}>
-          <LandingPageHeader />
 
 
-        </View>
-      </ScrollView>
+      <AppContainer />
+
     );
   }
 }
+export default App;
