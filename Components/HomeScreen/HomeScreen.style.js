@@ -12,9 +12,9 @@ export default StyleSheet.create({
     height: 40,
   },
   buttonPos: {
-    flex: 1,
+
     justifyContent: 'center',
-    marginTop: '5%',
+    // marginTop: '%',
     flexDirection: 'row',
   },
   body: {
