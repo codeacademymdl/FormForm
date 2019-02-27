@@ -14,7 +14,7 @@ export default StyleSheet.create({
   buttonPos: {
     flex: 1,
     justifyContent: 'center',
-    marginTop: '80%',
+    marginTop: '5%',
     flexDirection: 'row',
   },
   body: {

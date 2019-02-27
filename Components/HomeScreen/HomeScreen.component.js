@@ -9,22 +9,31 @@ import addIcon from '../../assets/add.png';
 import FormBlock from '../FormBlock/FormBlock.component';
 
 export default class HomeScreen extends Component {
-  // async componentDidMount() {
+  state = {
+    formData: [],
+  }
 
-
-  // }
+  async componentDidMount() {
+    const fetchedData = await axios.get('http://localhost:8080/FormData');
+    const forms = fetchedData.data.form;
+    this.setState({
+      formData: forms,
+    });
+  }
 
   render() {
-    console.log('inside homescreen', this.props);
+    // console.log('inside homescreen', this.props);
+    // console.log(this.state.formData);
     return (
       <ScrollView style={styles.main}>
         <LandingPageHeader heading="Awesome Forms" />
         <View style={styles.body}>
-          <FormBlock title="ballay ballay" />
-          <FormBlock title="ballay ballay" />
-          <FormBlock title="ballay ballay" />
-          <FormBlock title="ballay ballay" />
+          {
+            this.state.formData.map(object => <FormBlock key={object.formName} title={object.formName} date={object.createdAt} />)
+          }
+
           <View style={styles.buttonPos}>
+
             <TouchableOpacity
               underlayColor="blue"
               onPress={() => this.props.navigation.navigate('CreateForm')}

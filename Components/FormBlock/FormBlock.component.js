@@ -12,7 +12,10 @@ export default class FormBlock extends Component {
       <View style={styles.main}>
         <Text style={styles.content}>{this.props.title}</Text>
         <View style={styles.bottomView}>
-          <Text style={styles.bottomText}>Created On:dsfljsdfkjsh</Text>
+          <Text style={styles.bottomText}>
+            Created On:
+            {this.props.date}
+          </Text>
         </View>
       </View>
 
