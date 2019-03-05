@@ -4,13 +4,16 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "jest --verbose --coverage",
+    "test:watch": "jest --verbose --watch",
+    "test:update": "jest --updateSnapshot"
   },
   "dependencies": {
     "axios": "^0.18.0",
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.10.0",
     "jest-enzyme": "^7.0.1",
+    "jsdom": "^13.2.0",
     "moment": "^2.24.0",
     "react": "16.6.3",
     "react-dom": "^16.8.3",
