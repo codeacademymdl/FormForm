@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1551769193515" clover="3.2.0">
+  <project timestamp="1551769193515" name="All files">
+    <metrics statements="25" coveredstatements="20" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="8" elements="38" coveredelements="28" complexity="0" loc="25" ncloc="25" packages="5" files="9" classes="9"/>
+    <package name="Components.CreateForm">
+      <metrics statements="16" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="4"/>
+      <file name="CreateForm.component.js" path="/Users/Vibhore_Gupta/Code Academy/ReactNative/FormForm/Components/CreateForm/CreateForm.component.js">
+        <metrics statements="16" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="4"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+        <line num="26" count="3" type="stmt"/>
+        <line num="27" count="3" type="stmt"/>
+        <line num="28" count="3" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="44" count="11" type="stmt"/>
+        <line num="47" count="11" type="stmt"/>
+        <line num="48" count="2" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="62" count="11" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+      </file>
+      <file name="CreateForm.style.js" path="/Users/Vibhore_Gupta/Code Academy/ReactNative/FormForm/Components/CreateForm/CreateForm.style.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="Components.FormBlock">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="FormBlock.component.js" path="/Users/Vibhore_Gupta/Code Academy/ReactNative/FormForm/Components/FormBlock/FormBlock.component.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="20" count="1" type="stmt"/>
+      </file>
+      <file name="FormBlock.style.js" path="/Users/Vibhore_Gupta/Code Academy/ReactNative/FormForm/Components/FormBlock/FormBlock.style.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="Components.HomeScreen">
+      <metrics statements="6" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="2"/>
+      <file name="HomeScreen.component.js" path="/Users/Vibhore_Gupta/Code Academy/ReactNative/FormForm/Components/HomeScreen/HomeScreen.component.js">
+        <metrics statements="6" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="2"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="27" count="4" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+      </file>
+      <file name="HomeScreen.style.js" path="/Users/Vibhore_Gupta/Code Academy/ReactNative/FormForm/Components/HomeScreen/HomeScreen.style.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="Components.LandingPageHeader">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="LandingPageHeader.component.js" path="/Users/Vibhore_Gupta/Code Academy/ReactNative/FormForm/Components/LandingPageHeader/LandingPageHeader.component.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="11" count="3" type="stmt"/>
+      </file>
+      <file name="LandingPageHeader.style.js" path="/Users/Vibhore_Gupta/Code Academy/ReactNative/FormForm/Components/LandingPageHeader/LandingPageHeader.style.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="assets">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="add.png" path="/Users/Vibhore_Gupta/Code Academy/ReactNative/FormForm/assets/add.png">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

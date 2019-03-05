@@ -37,11 +37,11 @@ describe('FillForm', () => {
 
   it('checks if counterIncrement function triggered', () => {
     const wrapper = shallow(<FillForm />);
-    wrapper.find('TouchableHighlight').first().simulate('press', { preventDefault() { } });
+    wrapper.find('TouchableHighlight').first().simulate('press');
   });
 
   it('checks if onSubmit function triggered', () => {
     const wrapper = shallow(<FillForm />);
-    wrapper.find('TouchableHighlight').at(1).simulate('press', { preventDefault() { } });
+    wrapper.find('TouchableHighlight').at(1).simulate('press');
   });
 });

@@ -34,15 +34,12 @@ export default class FillForm extends Component {
       fieldObject[val] = val;
     });
     fieldObject.FormName = this.state.formName;
-
-    console.log(fieldObject);
-
     axios.post('http://localhost:8080/insertFormField', { id: 1, field: fieldObject });
   }
 
 
   render() {
-    console.log(this.state);
+    // console.log(this.state);
     // val=this.refs.<refname>.value
     const fields = [];
 
