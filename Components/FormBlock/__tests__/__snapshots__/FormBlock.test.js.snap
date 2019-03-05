@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FillForm renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+      "height": 200,
+      "justifyContent": "center",
+      "marginBottom": 10,
+      "marginTop": 30,
+      "width": "70%",
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "black",
+        "fontSize": 30,
+        "marginLeft": 10,
+      }
+    }
+  >
+    ThisTitle
+  </Text>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-end",
+        "borderTopColor": "black",
+        "borderTopWidth": 2,
+        "justifyContent": "flex-end",
+        "marginRight": 10,
+        "marginTop": "30%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 15,
+        }
+      }
+    >
+      Created On:
+      10thDecember 2019
+    </Text>
+  </View>
+</View>
+`;
